@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    This Feature adds a hero without a name",
+    "keyword": "Feature",
+    "name": "DashboardCountHeroes Functionality",
+    "line": 1,
+    "id": "dashboardcountheroes-functionality",
+    "tags": [],
+    "uri": "BlankHeroAdd.feature",
+    "elements": [
+      {
+        "id": "dashboardcountheroes-functionality;as-a-toh-user,-i-want-to-navigate-to-the-dashboard-to-see-the-top-heroes",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "As a TOH user, I want to navigate to the dashboard to see the top heroes",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 223000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user clicks the Heroes button",
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user clicks on the Add Hero button",
+            "result": {
+              "status": "passed",
+              "duration": 532000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user should see no new hero added",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

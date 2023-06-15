@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    This Feature tests login scenarios",
+    "keyword": "Feature",
+    "name": "Add hero Functionality",
+    "line": 1,
+    "id": "add-hero-functionality",
+    "tags": [],
+    "uri": "AddHero.feature",
+    "elements": [
+      {
+        "id": "add-hero-functionality;as-a-toh-user,-i-want-to-add-a-hero-and-see-the-new-hero-in-the-list",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "As a TOH user, I want to add a hero and see the new hero in the list",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the heroes page",
+            "result": {
+              "status": "passed",
+              "duration": 243000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user types a hero",
+            "result": {
+              "status": "passed",
+              "duration": 252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user clicks add hero",
+            "result": {
+              "status": "passed",
+              "duration": 1097000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the user should see the hero at the end of the heroes list",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
